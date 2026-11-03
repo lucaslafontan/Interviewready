@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: interviewready-india
+    runtime: node
+    plan: free
+    buildCommand: echo ready
+    startCommand: node server.mjs
